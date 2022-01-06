@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45209A5F2786F49400D09EB2 /* YADOWNLOADIMAGE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45209A5E2786F49400D09EB2 /* YADOWNLOADIMAGE.swift */; };
 		454D62292785C0CE00403791 /* YADOWNLOADIMAGE.docc in Sources */ = {isa = PBXBuildFile; fileRef = 454D62282785C0CE00403791 /* YADOWNLOADIMAGE.docc */; };
 		454D622F2785C0CE00403791 /* YADOWNLOADIMAGE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D62242785C0CE00403791 /* YADOWNLOADIMAGE.framework */; };
 		454D62342785C0CE00403791 /* YADOWNLOADIMAGETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454D62332785C0CE00403791 /* YADOWNLOADIMAGETests.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45209A5E2786F49400D09EB2 /* YADOWNLOADIMAGE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YADOWNLOADIMAGE.swift; sourceTree = "<group>"; };
 		454D62242785C0CE00403791 /* YADOWNLOADIMAGE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YADOWNLOADIMAGE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		454D62272785C0CE00403791 /* YADOWNLOADIMAGE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YADOWNLOADIMAGE.h; sourceTree = "<group>"; };
 		454D62282785C0CE00403791 /* YADOWNLOADIMAGE.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YADOWNLOADIMAGE.docc; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		454D62262785C0CE00403791 /* YADOWNLOADIMAGE */ = {
 			isa = PBXGroup;
 			children = (
+				45209A5E2786F49400D09EB2 /* YADOWNLOADIMAGE.swift */,
 				454D62272785C0CE00403791 /* YADOWNLOADIMAGE.h */,
 				454D62282785C0CE00403791 /* YADOWNLOADIMAGE.docc */,
 			);
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				454D62292785C0CE00403791 /* YADOWNLOADIMAGE.docc in Sources */,
+				45209A5F2786F49400D09EB2 /* YADOWNLOADIMAGE.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +497,7 @@
 		454D623C2785C0CE00403791 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -508,6 +513,7 @@
 		454D623D2785C0CE00403791 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
