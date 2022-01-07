@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
 
-
+  spec.dependency 'Alamofire'
 
 
   spec.source = { :git => "https://github.com/IamYasirAli/YADOWNLOADIMAGE.git", :tag => "#{spec.version}" }

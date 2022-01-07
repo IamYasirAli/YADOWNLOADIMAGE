@@ -1,0 +1,6 @@
+framework module Pods_YADOWNLOADIMAGEExamples {
+  umbrella header "Pods-YADOWNLOADIMAGEExamples-umbrella.h"
+
+  export *
+  module * { export * }
+}

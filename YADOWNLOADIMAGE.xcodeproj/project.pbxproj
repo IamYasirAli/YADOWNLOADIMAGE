@@ -18,6 +18,9 @@
 		454D62952785CA6900403791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454D62932785CA6900403791 /* Main.storyboard */; };
 		454D62972785CA6A00403791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454D62962785CA6A00403791 /* Assets.xcassets */; };
 		454D629A2785CA6A00403791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454D62982785CA6A00403791 /* LaunchScreen.storyboard */; };
+		96EDDF7896407AF597BC0C7E /* Pods_YADOWNLOADIMAGEExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C94FA94CD429D813C2743FC /* Pods_YADOWNLOADIMAGEExamples.framework */; };
+		99E3E12BB53CC80302FCFA4D /* Pods_YADOWNLOADIMAGE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2668ED67EB970D5ED28171C5 /* Pods_YADOWNLOADIMAGE.framework */; };
+		9D2668590A4DCA200F08631F /* Pods_YADOWNLOADIMAGE_YADOWNLOADIMAGETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC155FE2A06DE67475060A07 /* Pods_YADOWNLOADIMAGE_YADOWNLOADIMAGETests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C94FA94CD429D813C2743FC /* Pods_YADOWNLOADIMAGEExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YADOWNLOADIMAGEExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2668ED67EB970D5ED28171C5 /* Pods_YADOWNLOADIMAGE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YADOWNLOADIMAGE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45209A5E2786F49400D09EB2 /* YADOWNLOADIMAGE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YADOWNLOADIMAGE.swift; sourceTree = "<group>"; };
 		454D62242785C0CE00403791 /* YADOWNLOADIMAGE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YADOWNLOADIMAGE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		454D62272785C0CE00403791 /* YADOWNLOADIMAGE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YADOWNLOADIMAGE.h; sourceTree = "<group>"; };
@@ -45,6 +50,13 @@
 		454D62962785CA6A00403791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		454D62992785CA6A00403791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		454D629B2785CA6A00403791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DEBBF6FDB8D0B0D38A66257 /* Pods-YADOWNLOADIMAGEExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YADOWNLOADIMAGEExamples.release.xcconfig"; path = "Target Support Files/Pods-YADOWNLOADIMAGEExamples/Pods-YADOWNLOADIMAGEExamples.release.xcconfig"; sourceTree = "<group>"; };
+		785126E8082FA3074EAF0DC7 /* Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests.release.xcconfig"; path = "Target Support Files/Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests/Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests.release.xcconfig"; sourceTree = "<group>"; };
+		A4F59A50902C6FDC5DAF37FB /* Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests.debug.xcconfig"; path = "Target Support Files/Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests/Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests.debug.xcconfig"; sourceTree = "<group>"; };
+		B552BF4D88B6BAD35C47C4BA /* Pods-YADOWNLOADIMAGE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YADOWNLOADIMAGE.release.xcconfig"; path = "Target Support Files/Pods-YADOWNLOADIMAGE/Pods-YADOWNLOADIMAGE.release.xcconfig"; sourceTree = "<group>"; };
+		DBE021801B50248AEAD96978 /* Pods-YADOWNLOADIMAGEExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YADOWNLOADIMAGEExamples.debug.xcconfig"; path = "Target Support Files/Pods-YADOWNLOADIMAGEExamples/Pods-YADOWNLOADIMAGEExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		DC155FE2A06DE67475060A07 /* Pods_YADOWNLOADIMAGE_YADOWNLOADIMAGETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YADOWNLOADIMAGE_YADOWNLOADIMAGETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82923324BD51B8D04B40AC4 /* Pods-YADOWNLOADIMAGE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YADOWNLOADIMAGE.debug.xcconfig"; path = "Target Support Files/Pods-YADOWNLOADIMAGE/Pods-YADOWNLOADIMAGE.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E3E12BB53CC80302FCFA4D /* Pods_YADOWNLOADIMAGE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				454D622F2785C0CE00403791 /* YADOWNLOADIMAGE.framework in Frameworks */,
+				9D2668590A4DCA200F08631F /* Pods_YADOWNLOADIMAGE_YADOWNLOADIMAGETests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +81,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96EDDF7896407AF597BC0C7E /* Pods_YADOWNLOADIMAGEExamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A2A7AB77464F7D47BB210D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2668ED67EB970D5ED28171C5 /* Pods_YADOWNLOADIMAGE.framework */,
+				DC155FE2A06DE67475060A07 /* Pods_YADOWNLOADIMAGE_YADOWNLOADIMAGETests.framework */,
+				0C94FA94CD429D813C2743FC /* Pods_YADOWNLOADIMAGEExamples.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		454D621A2785C0CE00403791 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +105,8 @@
 				454D62322785C0CE00403791 /* YADOWNLOADIMAGETests */,
 				454D628C2785CA6900403791 /* YADOWNLOADIMAGEExamples */,
 				454D62252785C0CE00403791 /* Products */,
+				B14007E0655641D898F29944 /* Pods */,
+				1A2A7AB77464F7D47BB210D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,20 @@
 			path = YADOWNLOADIMAGEExamples;
 			sourceTree = "<group>";
 		};
+		B14007E0655641D898F29944 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E82923324BD51B8D04B40AC4 /* Pods-YADOWNLOADIMAGE.debug.xcconfig */,
+				B552BF4D88B6BAD35C47C4BA /* Pods-YADOWNLOADIMAGE.release.xcconfig */,
+				A4F59A50902C6FDC5DAF37FB /* Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests.debug.xcconfig */,
+				785126E8082FA3074EAF0DC7 /* Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests.release.xcconfig */,
+				DBE021801B50248AEAD96978 /* Pods-YADOWNLOADIMAGEExamples.debug.xcconfig */,
+				4DEBBF6FDB8D0B0D38A66257 /* Pods-YADOWNLOADIMAGEExamples.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -143,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 454D62382785C0CE00403791 /* Build configuration list for PBXNativeTarget "YADOWNLOADIMAGE" */;
 			buildPhases = (
+				D352AED42D8854584D82E4DA /* [CP] Check Pods Manifest.lock */,
 				454D621F2785C0CE00403791 /* Headers */,
 				454D62202785C0CE00403791 /* Sources */,
 				454D62212785C0CE00403791 /* Frameworks */,
@@ -161,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 454D623B2785C0CE00403791 /* Build configuration list for PBXNativeTarget "YADOWNLOADIMAGETests" */;
 			buildPhases = (
+				C0BC580B7E8FFECA2FF54B8B /* [CP] Check Pods Manifest.lock */,
 				454D622A2785C0CE00403791 /* Sources */,
 				454D622B2785C0CE00403791 /* Frameworks */,
 				454D622C2785C0CE00403791 /* Resources */,
+				699E83633AADD9C2C5635A6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 454D629C2785CA6A00403791 /* Build configuration list for PBXNativeTarget "YADOWNLOADIMAGEExamples" */;
 			buildPhases = (
+				855A34EB60A36F56E9A5B46E /* [CP] Check Pods Manifest.lock */,
 				454D62872785CA6800403791 /* Sources */,
 				454D62882785CA6800403791 /* Frameworks */,
 				454D62892785CA6800403791 /* Resources */,
@@ -259,6 +304,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		699E83633AADD9C2C5635A6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests/Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests/Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests/Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		855A34EB60A36F56E9A5B46E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YADOWNLOADIMAGEExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0BC580B7E8FFECA2FF54B8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D352AED42D8854584D82E4DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YADOWNLOADIMAGE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		454D62202785C0CE00403791 /* Sources */ = {
@@ -442,6 +573,7 @@
 		};
 		454D62392785C0CE00403791 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82923324BD51B8D04B40AC4 /* Pods-YADOWNLOADIMAGE.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -469,6 +601,7 @@
 		};
 		454D623A2785C0CE00403791 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B552BF4D88B6BAD35C47C4BA /* Pods-YADOWNLOADIMAGE.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -496,6 +629,7 @@
 		};
 		454D623C2785C0CE00403791 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F59A50902C6FDC5DAF37FB /* Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -512,6 +646,7 @@
 		};
 		454D623D2785C0CE00403791 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785126E8082FA3074EAF0DC7 /* Pods-YADOWNLOADIMAGE-YADOWNLOADIMAGETests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +663,7 @@
 		};
 		454D629D2785CA6A00403791 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE021801B50248AEAD96978 /* Pods-YADOWNLOADIMAGEExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -555,6 +691,7 @@
 		};
 		454D629E2785CA6A00403791 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEBBF6FDB8D0B0D38A66257 /* Pods-YADOWNLOADIMAGEExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
