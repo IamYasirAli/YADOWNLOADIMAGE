@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YADOWNLOADIMAGE"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A CocoaPods library written in Swift"
 
 
@@ -21,7 +21,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = "4.2"
 
   spec.dependency 'Alamofire'
-
 
   spec.source = { :git => "https://github.com/IamYasirAli/YADOWNLOADIMAGE.git", :tag => "#{spec.version}" }
 
