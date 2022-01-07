@@ -11,7 +11,10 @@ import Alamofire
 
 
 public final class YADOWNLOADIMAGE {
-    public func getImage(path: String, completion: @escaping (_ image:UIImage?, _ error: Error?) -> Void) {
+    public static var shared = YADOWNLOADIMAGE()
+    
+    private init () {}
+    public static func getImage(path: String, completion: @escaping (_ image:UIImage?, _ error: Error?) -> Void) {
         DispatchQueue.global(qos: .userInitiated).async {
             AF.request( path,method: .get).response {  response in
                 DispatchQueue.main.async {
